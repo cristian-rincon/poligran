@@ -17,8 +17,5 @@ def is_prime(number: int) -> bool:
 
 
 if __name__ == '__main__':
-    # number = int(input('Ingrese un número: '))
-    # print(is_prime(number))
-
-    for number in range(1, 101):
-        print(f'{number} es primo: {is_prime(number)}')
+    number = int(input('Ingrese un número: '))
+    print(is_prime(number))
